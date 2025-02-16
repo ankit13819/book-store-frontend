@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import getBaseUrl from '../../../utils/baseURL.js'
+import { getBaseUrl } from '../../../utils/baseUrl.js'
 
 const baseQuery = fetchBaseQuery({
   baseUrl: `${getBaseUrl()}/api/books`,
